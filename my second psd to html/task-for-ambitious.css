@@ -1,0 +1,431 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+section {
+  padding: 80px 0 0 0;
+  overflow-x: hidden; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row:after {
+  clear: both; }
+
+/* variables */
+/* fonts family */
+/* colors */
+/* NAVIGATION */
+.navbar {
+  background-color: transparent;
+  border: none;
+  position: relative; }
+  .navbar .navbar-nav {
+    margin-left: 40%; }
+    .navbar .navbar-nav li a {
+      color: white;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      font-size: 13px; }
+  .navbar .navbar-brand img {
+    height: 24px; }
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url(https://zapodaj.net/images/e4ad6e747c081.jpg);
+  background-size: cover;
+  height: 750px;
+  text-align: center; }
+  .jumbotron h1 {
+    font-family: "Cardo", sans-serif;
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 200px; }
+  .jumbotron p {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 22px; }
+  .jumbotron .btn-warning {
+    height: 46px;
+    width: 200px;
+    font-family: "Raleway", sans-serif;
+    background-color: #e84545;
+    border-color: #e84545;
+    margin-top: 2%;
+    margin-left: -6%; }
+
+/*DETAILS */
+.details .column {
+  text-align: center; }
+  .details .column i {
+    color: #e84545;
+    font-size: 60px; }
+  .details .column h3 {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2d3033; }
+  .details .column p {
+    color: #6c7279;
+    font-size: 14px; }
+.details .columns-bottom {
+  margin-top: 23%; }
+
+/* GALLERY */
+.gallery {
+  overflow-x: hidden; }
+  .gallery .column {
+    height: 350px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+    padding: 0; }
+  .gallery .cl1 {
+    background-image: url(https://zapodaj.net/images/d788ccd42d6a2.jpg); }
+  .gallery .cl2 {
+    background-image: url(https://zapodaj.net/images/1a5c26ca08aca.jpg); }
+  .gallery .cl3 {
+    background-image: url(https://zapodaj.net/images/70b6d0cd22c41.jpg); }
+  .gallery .cl4 {
+    background-image: url(https://zapodaj.net/images/2a54a0c24e68e.jpg); }
+  .gallery .cl5 {
+    background-image: url(https://zapodaj.net/images/626c61c22d426.jpg); }
+  .gallery .cl6 {
+    background-image: url(https://zapodaj.net/images/7ef806b2f689c.jpg); }
+  .gallery .cl7 {
+    background-image: url(https://zapodaj.net/images/23bac39f93da3.jpg); }
+  .gallery .cl8 {
+    background-image: url(https://zapodaj.net/images/ad73b094eead9.jpg); }
+  .gallery .layer {
+    position: absolute;
+    text-align: center;
+    color: transparent; }
+    .gallery .layer h3 {
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 14px; }
+    .gallery .layer p {
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      font-weight: regular; }
+  .gallery .column:hover .layer {
+    background-color: #e84545;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .gallery .column:hover h3 {
+    color: white; }
+  .gallery .column:hover p {
+    color: white; }
+
+/* WORKERS */
+.workers {
+  overflow-x: hidden; }
+  .workers .column img {
+    height: 270px; }
+  .workers .column h3 {
+    font-size: 22px;
+    color: #2d3033;
+    font-family: "Raleway", sans-serif; }
+  .workers .column h5 {
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    color: #e84545;
+    text-transform: uppercase;
+    margin-bottom: 7%; }
+  .workers .column p {
+    color: #6c7279;
+    font-size: 14px; }
+  .workers .column .fa {
+    font-size: 17px;
+    color: #c6cacc;
+    text-align: center; }
+  .workers .column .fa-button {
+    background-color: white;
+    border: 1px solid #c6cacc;
+    width: 40px;
+    height: 40px; }
+  .workers .column .facebook:hover {
+    background-color: #3b5998; }
+  .workers .column .twitter:hover {
+    background-color: #55acee; }
+  .workers .column .linkedin:hover {
+    background-color: #007bb5; }
+
+/* SLIDES */
+.slides {
+  overflow-x: hidden; }
+  .slides .women {
+    background-image: url(https://zapodaj.net/images/f132ee0c9f935.jpg);
+    height: 500px;
+    background-size: cover; }
+  .slides .slides {
+    background-color: #53354a;
+    height: 500px; }
+    .slides .slides .carousel-inner {
+      margin-top: 5%;
+      margin-left: 5%;
+      height: 300px;
+      position: relative;
+      width: 90%; }
+      .slides .slides .carousel-inner .sentence h2 {
+        font-size: 36px;
+        color: white;
+        width: 50%;
+        font-family: "Cardo", sans-serif;
+        font-style: Italic; }
+      .slides .slides .carousel-inner .sentence p {
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        color: white;
+        margin-top: 3%; }
+
+/* DOWNLOAD */
+.download .column {
+  margin-left: 22%;
+  margin-bottom: 10%; }
+  .download .column h2 {
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    color: #2d3033;
+    font-weight: 300; }
+  .download .column h5 {
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    color: #2d3033;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 14%;
+    margin-top: 3%; }
+  .download .column .btn-warning {
+    background-color: #e84545;
+    border-color: #e84545;
+    color: white;
+    text-transform: uppercase;
+    width: 280px;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: semibold;
+    height: 46px;
+    margin-left: 15%;
+    margin-top: 3%; }
+
+/* CONTACTS */
+.contacts {
+  background-color: #3a3e64;
+  height: 250px;
+  color: white; }
+  .contacts .row {
+    margin-left: 20%; }
+    .contacts .row .column h5 {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      margin-bottom: 7%; }
+    .contacts .row .column p {
+      font-size: 14px;
+      opacity: 0.5;
+      font-family: "Raleway", sans-serif; }
+    .contacts .row .cl2 .fa {
+      font-size: 17px;
+      color: white;
+      text-align: center; }
+    .contacts .row .cl2 .fa-button {
+      background-color: #3a3e64;
+      border: 1px solid #fff;
+      width: 40px;
+      height: 40px; }
+    .contacts .row .cl2 .facebook:hover {
+      background-color: #3b5998; }
+    .contacts .row .cl2 .twitter:hover {
+      background-color: #55acee; }
+    .contacts .row .cl2 .linkedin:hover {
+      background-color: #007bb5; }
+    .contacts .row .cl3 p {
+      text-align: center;
+      margin-left: -12%;
+      width: 55%; }
+
+/* FOOTER */
+footer {
+  background-color: #313454;
+  height: 94px;
+  text-align: center; }
+  footer p {
+    color: #6c7279;
+    padding: 1% 0 0 0;
+    margin: 0; }
+
+/* MEDIA QUERIES */
+@media(max-width: 767px) {
+  .navbar {
+    left: 0; }
+    .navbar .navbar-nav {
+      margin-left: 0; }
+
+  .jumbotron {
+    width: 100%;
+    height: auto; }
+    .jumbotron h1 {
+      font-size: 25px;
+      margin-top: 50px; }
+    .jumbotron p {
+      font-size: 20px; }
+
+  .workers .column {
+    text-align: center;
+    margin-top: 6%; }
+
+  .slides .women {
+    background-position: center; }
+  .slides .slides .carousel-inner {
+    margin-top: 8%;
+    margin-left: 30%; }
+  .slides .slides .carousel .carousel-indicators {
+    margin-bottom: -8%; }
+
+  .download {
+    margin-bottom: 3%; }
+    .download .column {
+      margin-left: 0;
+      margin-bottom: 0;
+      text-align: center; }
+      .download .column h2 {
+        margin-left: 0; }
+      .download .column h5 {
+        margin-left: 0; }
+      .download .column .btn-warning {
+        margin-left: 0; }
+
+  .contacts {
+    height: auto;
+    text-align: center;
+    padding: 0; }
+    .contacts .row {
+      margin-left: 0; }
+      .contacts .row .cl3 p {
+        margin-left: 30%;
+        width: 41%; }
+    .contacts .column h5 {
+      margin-bottom: 1%; } }
+@media(min-width: 767px) and (max-width: 991px) {
+  .navbar {
+    left: 0; }
+    .navbar .navbar-nav {
+      margin-left: 0; }
+
+  .jumbotron {
+    width: 100%;
+    height: auto; }
+    .jumbotron h1 {
+      font-size: 25px;
+      margin-top: 50px; }
+    .jumbotron p {
+      font-size: 20px; }
+
+  .workers .column {
+    text-align: center;
+    margin-top: 6%; }
+
+  .slides .women {
+    background-position: center; }
+  .slides .slides .carousel-inner {
+    margin-top: 8%;
+    margin-left: 30%; }
+  .slides .carousel .carousel-indicators {
+    margin-bottom: -8%; }
+
+  .download {
+    margin-bottom: 3%; }
+    .download .column {
+      margin-left: 0;
+      margin-bottom: 0;
+      text-align: center; }
+      .download .column h2 {
+        margin-left: 0; }
+      .download .column h5 {
+        margin-left: 0; }
+      .download .column .btn-warning {
+        margin-left: 0; }
+
+  .contacts {
+    height: auto;
+    text-align: center;
+    padding: 0; }
+    .contacts .row {
+      margin-left: 0; }
+      .contacts .row .cl3 p {
+        margin-left: 30%;
+        width: 41%; }
+    .contacts .column h5 {
+      margin-bottom: 1%; } }
+@media(min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    left: 0; }
+    .navbar .navbar-nav {
+      margin-left: 0; }
+
+  .jumbotron {
+    width: 100%;
+    height: auto; }
+    .jumbotron h1 {
+      font-size: 25px;
+      margin-top: 50px; }
+    .jumbotron p {
+      font-size: 20px; }
+
+  .workers .column {
+    text-align: center; }
+    .workers .column img {
+      height: 230px; }
+
+  .slides {
+    height: 400px;
+    background-position: center; }
+    .slides .carousel-inner {
+      margin-top: 13%; }
+    .slides .carousel .carousel-indicators {
+      margin-bottom: -8%; }
+
+  .download {
+    margin-bottom: 3%; }
+    .download .column {
+      margin-left: 0;
+      margin-bottom: 0;
+      text-align: center; }
+      .download .column h2 {
+        margin-left: 0; }
+      .download .column h5 {
+        margin-left: 0; }
+      .download .column .btn-warning {
+        margin-left: 0; }
+
+  .contacts {
+    height: auto;
+    text-align: center; }
+    .contacts .row {
+      margin-left: 0; }
+      .contacts .row .cl3 p {
+        margin-left: 30%;
+        width: 41%; }
+    .contacts .column h5 {
+      margin-bottom: 1%; } }
+
+/*# sourceMappingURL=task-for-ambitious.css.map */

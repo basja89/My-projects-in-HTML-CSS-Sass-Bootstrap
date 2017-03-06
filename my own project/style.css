@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row:after {
+	clear: both;
+}
+
+
+/* NAVIGATION */
+
+.navbar-collapse {
+	text-align: center;
+}
+
+.navbar {
+	background-color: #3B3B3B;
+}
+
+ul.nav.navbar-nav > li > a {
+	font-size: 17px;
+	color: #eae1d0;
+}
+
+ul.nav.navbar-nav > li > a:hover {
+	color: white;
+}
+
+
+/* JUMBOTRON*/
+
+.jumbotron {
+	background-image: url(https://zapodaj.net/images/207f4363639c6.jpg);
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.jumbotron .slogan {
+	position: absolute;
+	background-color: #3B3B3B;
+	color: #eae1d0;
+	opacity: 0.8;
+	text-align: center;
+	bottom: 36%;
+	right: 0;
+	padding: 35px 39px;
+}
+
+
+/* ABOUT-ME */
+
+.about-me .me {
+	border-radius: 38% 0%;
+	width: 400px;
+}
+
+.about-me {
+	text-align: center;
+	padding: 40px;
+}
+
+.about-me h1 {
+	padding: 20px;
+}
+
+.about-me p {
+	border-left: 6px solid red;
+	padding: 20px;
+}
+
+
+/* BLOG */
+
+.blog {
+	background-image: url(https://zapodaj.net/images/0ddc2421bfb35.jpg);
+	width: 100%;
+	height: 500px;
+	background-attachment: fixed;
+	background-color: #ffffff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px;
+	overflow: hidden;
+}
+
+.blog .my-blog {
+	color: #eae1d0;
+	text-align: center;
+}
+
+.blog .my-blog h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.blog .my-blog h3 {
+	text-decoration: underline;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.blog .my-blog p {
+	font-size: 26px;
+	border-left: red 10px solid;
+	padding: 20px;
+}
+
+.blog .my-blog .btn-info {
+	padding: 15px;
+	background-color: red;
+	border-color: red;
+}
+
+.blog .my-blog .btn-info:hover {
+	background-color: #eae1d0;
+	border-color: #eae1d0;
+	color: #3B3B3B;
+}
+
+
+/* GALLERY */
+
+.gallery {
+	padding: 50px;
+}
+
+.column {
+	position: relative;
+}
+
+.gallery .cl5 {
+	float: left;
+}
+
+.column img {
+	width: 100%
+}
+
+.layer {
+	width: calc(100% - 30px);
+	height: 100%;
+	position: absolute;
+}
+
+.column .img-thumbnail {
+	border-radius: 0;
+	padding: 0;
+}
+
+.column:hover .layer {
+	background-color: rgba(14, 14, 14, 0.48);
+}
+
+.column h3 {
+	line-height: 350px;
+	color: transparent;
+	text-align: center;
+}
+
+.column:hover h3 {
+	color: white;
+	font-size: 40px;
+}
+
+
+/* CONTACT */
+
+.form {
+	padding: 50px;
+	position: relative;
+}
+
+.form-group {
+	width: 50%;
+	text-align: center;
+}
+
+.form .btn-info {
+	position: absolute;
+	bottom: 0%;
+	left: 49%;
+}
+
+.form h2 {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.socialmedia-button {
+	padding: 50px;
+	text-align: center;
+}
+
+.socialmedia-button .icon-btn {
+	border-radius: 50%;
+	border: 0;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.twitter {
+	color: #4099FF;
+}
+
+.facebook {
+	color: #3B5998;
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);
+	transition: 0.4s;
+}
+
+.twitter:hover {
+	color: white;
+	background-color: #4099FF;
+}
+
+.facebook:hover {
+	color: white;
+	background-color: #3B5998;
+}
+
+footer {
+	background-color: #3B3B3B;
+	height: 60px;
+	color: #eae1d0;
+	padding: 20px;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	.about-me .me {
+		width: 100%;
+	}
+	.blog {
+		height: auto;
+	}
+	.blog .my-blog h1 {
+		display: none;
+	}
+	.blog .my-blog p {
+		font-size: 20px;
+	}
+	.form-group {
+		width: 100%;
+	}
+	.form .btn-info {
+		left: 45%;
+		bottom: 2%;
+	}
+	.column h3 {
+		line-height: 150px;
+	}
+}

@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row:after {
+  clear: both; }
+
+/* variables */
+/* JUMBOTRON */
+.jumbotron {
+  padding: 50px 0 70px 0;
+  background-image: url(https://images.pexels.com/photos/102633/pexels-photo-102633.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative; }
+  .jumbotron .logo {
+    position: absolute; }
+  .jumbotron .slogan {
+    position: absolute;
+    top: 48%;
+    color: white; }
+    .jumbotron .slogan h1 {
+      letter-spacing: 2px;
+      margin-bottom: 39px;
+      font-size: 60px;
+      font-weight: 300; }
+    .jumbotron .slogan p {
+      font-size: 13px;
+      line-height: 24px; }
+
+/* CONTENT */
+.content {
+  padding: 50px 0 70px 0; }
+  .content img {
+    margin-top: -48%;
+    width: 84%; }
+  .content h2 {
+    color: #222626;
+    font-size: 35px; }
+  .content p {
+    color: #959595;
+    font-size: 14px; }
+
+/* GALLERY */
+.gallery {
+  padding: 50px 0 70px 0;
+  margin-left: 3%;
+  overflow-x: hidden; }
+  .gallery .width-tab {
+    width: 1522px; }
+  .gallery .column {
+    color: white;
+    padding: 38px;
+    height: 278px; }
+  .gallery .title {
+    font-size: 30px; }
+  .gallery .text {
+    font-size: 13px; }
+  .gallery .end-text {
+    font-weight: bold;
+    font-size: 14px; }
+  .gallery .fa-heart-o {
+    position: absolute;
+    right: 8%;
+    bottom: 21%;
+    font-size: 18px; }
+  .gallery .cl1 {
+    background-color: #f5989d; }
+  .gallery .cl2 {
+    background-color: #615f7d; }
+  .gallery .cl3 {
+    background-image: url(https://images.pexels.com/photos/158607/cairn-fog-mystical-background-158607.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-size: cover; }
+  .gallery .cl4 {
+    background-color: #bd8cbf; }
+  .gallery .cl5 {
+    background-image: url(https://images.pexels.com/photos/26750/pexels-photo-26750.jpg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+  .gallery .cl6 {
+    background-color: #82ca9c; }
+  .gallery .cl7 {
+    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+
+/* DETAILS */
+.open-details h5 {
+  font-size: 35px;
+  margin: 30px 0 30px 8px; }
+
+.details {
+  padding: 50px 0 70px 0; }
+  .details .column-details {
+    padding: 10px;
+    margin-top: -18%; }
+  .details .details-title {
+    font-weight: bold;
+    font-size: 13px;
+    color: #222626; }
+  .details .details-text {
+    color: #959595;
+    font-size: 14px;
+    padding: 10px 0 10px 0; }
+  .details .website p {
+    display: flex;
+    flex-direction: column;
+    font-size: 12x;
+    width: 9px;
+    text-transform: uppercase;
+    color: #959595;
+    margin-left: -18%; }
+
+/* CAR */
+.car .car-image {
+  background-image: url(https://images.pexels.com/photos/90601/pexels-photo-90601.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+.car .car-content {
+  position: absolute;
+  color: white;
+  top: 24%;
+  left: 20%;
+  font-weight: 300; }
+  .car .car-content .car-text {
+    line-height: 24px;
+    font-size: 13px;
+    margin-top: 8%; }
+  .car .car-content .car-title {
+    font-size: 60px;
+    line-height: 70px; }
+  .car .car-content .end-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6%; }
+  .car .car-content .fa-long-arrow-right {
+    margin-left: 5%; }
+
+/* REASONS */
+.reasons {
+  background-color: #82ca9c;
+  padding: 0;
+  height: 500px;
+  color: white; }
+  .reasons .open-reasons h5 {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 7%;
+    margin-left: 1%; }
+  .reasons .website p {
+    display: flex;
+    flex-direction: column;
+    font-size: 12x;
+    width: 9px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: -18%; }
+  .reasons .details-title {
+    font-size: 13px; }
+  .reasons .details-text {
+    font-size: 14px; }
+  .reasons .column-reason {
+    margin-top: -14%; }
+
+/* SELL */
+.sell {
+  height: 500px; }
+  .sell .shadow-box {
+    -webkit-box-shadow: 0px 0px 73px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 73px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 73px 6px rgba(0, 0, 0, 0.5); }
+  .sell .website p {
+    display: flex;
+    flex-direction: column;
+    font-size: 12x;
+    width: 9px;
+    text-transform: uppercase;
+    color: #959595;
+    margin-left: -18%;
+    margin-top: 10%; }
+  .sell .btn1 {
+    background-color: #c3cdd5;
+    border-color: #c3cdd5; }
+  .sell .sell-container {
+    margin-left: 12%; }
+  .sell .column2, .sell .column3 {
+    margin-top: -21%;
+    padding: 0 15px 0 0; }
+  .sell .sell-title {
+    color: #222626;
+    font-size: 30px;
+    margin-top: 4%;
+    font-weight: 300; }
+  .sell .sell-text {
+    color: #959595;
+    font-size: 14px;
+    margin-bottom: 8%; }
+  .sell .column1, .sell .shadow-box {
+    padding: 35px; }
+  .sell .btn2 {
+    background-color: #cfadd0;
+    border-color: #cfadd0; }
+  .sell .btn-warning {
+    background-color: #82ca9c;
+    border-color: #82ca9c;
+    padding: 13px;
+    width: 25%;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 2%; }
+  .sell .fa-apple, .sell .fa-windows {
+    color: #c3cdd5;
+    font-size: 23px;
+    padding: 1%; }
+
+/* GET IN TOUCH */
+.get-in-touch {
+  background-color: #192431;
+  color: white;
+  margin-top: 9%;
+  height: 500px; }
+  .get-in-touch .column2 {
+    margin-top: 10%; }
+    .get-in-touch .column2 thead th {
+      font-size: 13px; }
+  .get-in-touch .column3 {
+    margin-top: 10%; }
+    .get-in-touch .column3 .form-control {
+      width: 100%;
+      height: 49px; }
+    .get-in-touch .column3 .btn-warning {
+      position: absolute;
+      right: 14px;
+      top: 35%;
+      border-radius: 3%;
+      background-color: #82ca9c;
+      border-color: #82ca9c;
+      height: 49px;
+      width: 12%;
+      font-size: 29px;
+      text-align: center;
+      padding: 0; }
+
+@media(max-width: 767px) {
+  .content {
+    height: auto; }
+    .content img {
+      margin-top: 0; }
+
+  .details {
+    height: auto; }
+    .details .column-details {
+      margin-top: 0; }
+    .details .website p {
+      display: none; }
+
+  .car {
+    height: auto; }
+    .car .car-content {
+      text-align: center;
+      left: 6%; }
+    .car .car-title {
+      font-size: 30px; }
+
+  .gallery {
+    margin-left: 0; }
+    .gallery .width-tab {
+      width: auto; }
+
+  .reasons {
+    height: auto;
+    text-align: center; }
+    .reasons .website p {
+      display: none; }
+    .reasons .column-reason {
+      margin-top: 0; }
+
+  .sell {
+    height: auto; }
+    .sell .website p {
+      display: none; }
+    .sell .column2, .sell .column3 {
+      margin-top: 0; }
+
+  .get-in-touch {
+    height: auto; }
+    .get-in-touch .column3 .btn-warning {
+      top: 41%; } }
+@media(min-width: 768px) and (max-width: 991px) {
+  .content {
+    height: auto; }
+    .content img {
+      margin-top: 0; }
+
+  .details {
+    height: auto; }
+    .details .column-details {
+      margin-top: 0; }
+    .details .website p {
+      display: none; }
+
+  .car {
+    height: auto; }
+    .car .car-content {
+      text-align: center;
+      left: 24%; }
+    .car .car-title {
+      font-size: 30px; }
+
+  .gallery {
+    margin-left: 0; }
+    .gallery .width-tab {
+      width: auto; }
+
+  .reasons {
+    height: auto;
+    text-align: center; }
+    .reasons .website p {
+      display: none; }
+    .reasons .column-reason {
+      margin-top: 0; }
+
+  .sell {
+    height: auto; }
+    .sell .website p {
+      display: none; }
+    .sell .column2, .sell .column3 {
+      margin-top: 0; }
+
+  .get-in-touch {
+    height: auto; }
+    .get-in-touch .column3 .btn-warning {
+      top: 35%; } }
+@media(min-width: 992px) and (max-width: 1199px) {
+  .content {
+    height: auto; }
+    .content img {
+      margin-top: 0; }
+
+  .details {
+    height: auto; }
+    .details .column-details {
+      margin-top: 0; }
+    .details .website p {
+      display: none; }
+
+  .car {
+    height: auto; }
+    .car .car-content {
+      text-align: center;
+      left: 0%; }
+    .car .car-title {
+      font-size: 30px; }
+
+  .gallery {
+    margin-left: 0; }
+    .gallery .width-tab {
+      width: auto; }
+
+  .reasons {
+    height: auto;
+    text-align: center; }
+    .reasons .website p {
+      display: none; }
+    .reasons .column-reason {
+      margin-top: 0; }
+
+  .sell {
+    height: auto; }
+    .sell .website p {
+      display: none; }
+    .sell .column2, .sell .column3 {
+      margin-top: 0; }
+      .sell .column2 .btn-warning, .sell .column3 .btn-warning {
+        width: auto; }
+
+  .get-in-touch {
+    height: auto; }
+    .get-in-touch .column3 .btn-warning {
+      top: 35%; } }
+
+/*# sourceMappingURL=task-for-ambitious.css.map */

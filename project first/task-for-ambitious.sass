@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400')
+
+* 
+	box-sizing: border-box
+
+body 
+	margin: 0
+	font-family: 'Open Sans', sans-serif
+	line-height: 24px
+
+.row:before, 
+.row:after 
+	content: ""
+	display: table 
+	clear: both
+
+.row:after 
+	clear: both
+
+/* variables */
+
+$fonts-on-white: #959595
+$title-on-white: #222626
+
+
+/* JUMBOTRON */
+
+.jumbotron 
+	padding: 50px 0 70px 0
+	background-image: url(https://images.pexels.com/photos/102633/pexels-photo-102633.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)
+	background-size: cover
+	background-repeat: no-repeat
+	height: 100vh
+	position: relative 
+	.logo 
+		position: absolute
+	.slogan 
+		position: absolute
+		top: 48%
+		color: white
+		h1 
+			letter-spacing: 2px
+			margin-bottom: 39px
+			font-size: 60px
+			font-weight: 300
+		p
+			font-size: 13px
+			line-height: 24px
+
+/* CONTENT */
+
+.content 
+	padding: 50px 0 70px 0
+	img
+		margin-top: -48%
+		width: 84%
+	h2
+		color: $title-on-white
+		font-size: 35px
+	p
+		color: $fonts-on-white
+		font-size: 14px
+		
+/* GALLERY */
+
+.gallery
+	padding: 50px 0 70px 0
+	margin-left: 3%
+	overflow-x: hidden
+	.width-tab
+		width: 1522px
+	.column
+		color: white
+		padding: 38px
+		height: 278px
+	.title
+		font-size: 30px
+	.text
+		font-size: 13px
+	.end-text
+		font-weight: bold
+		font-size: 14px
+	.fa-heart-o
+		position: absolute
+		right: 8%
+		bottom: 21%
+		font-size: 18px
+	.cl1
+		background-color: #f5989d
+	.cl2
+		background-color: #615f7d
+	.cl3
+		background-image: url(https://images.pexels.com/photos/158607/cairn-fog-mystical-background-158607.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)
+		background-size: cover
+	.cl4
+		background-color: #bd8cbf
+	.cl5 
+		background-image: url(https://images.pexels.com/photos/26750/pexels-photo-26750.jpg?w=1260&h=750&auto=compress&cs=tinysrgb)
+	.cl6
+		background-color: #82ca9c
+	.cl7
+		background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=1260&h=750&auto=compress&cs=tinysrgb)
+
+/* DETAILS */
+
+.open-details
+	h5
+		font-size: 35px
+		margin: 30px 0 30px 8px
+.details
+	padding: 50px 0 70px 0
+	.column-details
+		padding: 10px
+		margin-top: -18%
+	.details-title
+		font-weight: bold
+		font-size: 13px
+		color: $title-on-white
+	.details-text
+		color: $fonts-on-white
+		font-size: 14px
+		padding: 10px 0 10px 0
+	.website p
+		display: flex
+		flex-direction: column
+		font-size: 12x
+		width: 9px
+		text-transform: uppercase
+		color: $fonts-on-white
+		margin-left: -18%
+		
+/* CAR */
+
+.car
+	.car-image
+		background-image: url(https://images.pexels.com/photos/90601/pexels-photo-90601.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)
+		height: 600px
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center
+		position: relative
+	.car-content
+		position: absolute
+		color: white
+		top: 24%
+		left: 20%
+		font-weight: 300
+		.car-text
+			line-height: 24px
+			font-size: 13px
+			margin-top: 8%
+		.car-title
+			font-size: 60px
+			line-height: 70px
+		.end-text
+			font-size: 14px
+			font-weight: bold
+			margin-top: 6%
+		.fa-long-arrow-right
+			margin-left: 5%
+
+/* REASONS */
+
+.reasons
+	background-color: #82ca9c
+	padding: 0
+	height: 500px
+	color: white
+	.open-reasons h5
+		font-size: 35px
+		font-weight: 300
+		margin-top: 7%
+		margin-left: 1%
+	.website p
+		display: flex
+		flex-direction: column
+		font-size: 12x
+		width: 9px
+		text-transform: uppercase
+		color: white
+		margin-left: -18%
+	.details-title
+		font-size: 13px
+	.details-text
+		font-size: 14px
+	.column-reason
+		margin-top: -14%
+
+/* SELL */
+
+.sell
+	height: 500px
+	.shadow-box
+		-webkit-box-shadow: 0px 0px 73px 6px rgba(0,0,0,0.5)
+		-moz-box-shadow: 0px 0px 73px 6px rgba(0,0,0,0.5)
+		box-shadow: 0px 0px 73px 6px rgba(0,0,0,0.5)
+	.website p
+		display: flex
+		flex-direction: column
+		font-size: 12x
+		width: 9px
+		text-transform: uppercase
+		color: $fonts-on-white
+		margin-left: -18%
+		margin-top: 10%
+	.btn1
+		background-color: #c3cdd5
+		border-color: #c3cdd5
+	.sell-container
+		margin-left: 12%
+	.column2, .column3
+		margin-top: -21%
+		padding: 0 15px 0 0
+	.sell-title
+		color: $title-on-white
+		font-size: 30px
+		margin-top: 4%
+		font-weight: 300
+	.sell-text
+		color: $fonts-on-white
+		font-size: 14px
+		margin-bottom: 8%
+	.column1, .shadow-box
+		padding: 35px
+	.btn2
+		background-color: #cfadd0
+		border-color: #cfadd0
+	.btn-warning
+		background-color: #82ca9c
+		border-color: #82ca9c
+		padding: 13px
+		width: 25%
+		font-size: 13px
+		letter-spacing: 1px
+		margin-bottom: 2%
+	.fa-apple, .fa-windows
+		color: #c3cdd5
+		font-size: 23px
+		padding: 1%
+	
+/* GET IN TOUCH */
+
+.get-in-touch
+	background-color: #192431
+	color: white
+	margin-top: 9%
+	height: 500px
+	.column2 
+		margin-top: 10%
+		thead th
+			font-size: 13px
+	.column3
+		margin-top: 10%
+		.form-control
+			width: 100%
+			height: 49px
+		.btn-warning
+			position: absolute
+			right: 14px
+			top: 35%
+			border-radius: 3%
+			background-color: #82ca9c
+			border-color: #82ca9c
+			height: 49px
+			width: 12%
+			font-size: 29px
+			text-align: center
+			padding: 0
+	
+	
+@media(max-width: 767px)
+	.content
+		height: auto
+		img
+			margin-top: 0
+			
+	.details 
+		height: auto
+		.column-details
+			margin-top: 0
+		.website p
+			display: none
+			
+	.car
+		height: auto
+		.car-content
+			text-align: center
+			left: 6%
+		.car-title
+			font-size: 30px
+	
+	.gallery
+		margin-left: 0
+		.width-tab
+			width: auto
+		
+	.reasons
+		height: auto
+		text-align: center
+		.website p
+			display: none
+		.column-reason
+			margin-top: 0
+			
+	.sell 
+		height: auto
+		.website p
+			display: none
+		.column2, .column3
+			margin-top: 0
+			
+	.get-in-touch
+		height: auto
+		.column3
+			.btn-warning
+				top: 41%
+@media(min-width: 768px) and (max-width: 991px)
+	.content
+		height: auto
+		img
+			margin-top: 0
+			
+	.details 
+		height: auto
+		.column-details
+			margin-top: 0
+		.website p
+			display: none
+			
+	.car
+		height: auto
+		.car-content
+			text-align: center
+			left: 24%
+		.car-title
+			font-size: 30px
+	
+	.gallery
+		margin-left: 0
+		.width-tab
+			width: auto
+		
+	.reasons
+		height: auto
+		text-align: center
+		.website p
+			display: none
+		.column-reason
+			margin-top: 0
+			
+	.sell 
+		height: auto
+		.website p
+			display: none
+		.column2, .column3
+			margin-top: 0
+			
+	.get-in-touch
+		height: auto
+		.column3
+			.btn-warning
+				top: 35%
+@media(min-width: 992px) and (max-width: 1199px)
+	.content
+		height: auto
+		img
+			margin-top: 0
+			
+	.details 
+		height: auto
+		.column-details
+			margin-top: 0
+		.website p
+			display: none
+			
+	.car
+		height: auto
+		.car-content
+			text-align: center
+			left: 0%
+		.car-title
+			font-size: 30px
+	
+	.gallery
+		margin-left: 0
+		.width-tab
+			width: auto
+		
+	.reasons
+		height: auto
+		text-align: center
+		.website p
+			display: none
+		.column-reason
+			margin-top: 0
+			
+	.sell 
+		height: auto
+		.website p
+			display: none
+		.column2, .column3
+			margin-top: 0
+			.btn-warning
+				width: auto
+			
+	.get-in-touch
+		height: auto
+		.column3
+			.btn-warning
+				top: 35%
+	
